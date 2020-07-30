@@ -13,12 +13,32 @@ body {
     background: whitesmoke;
 }
 
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 h1 {
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 40px;
     letter-spacing: 5px;
+  }
+.logo {
+  height: 27px;
+}
+
+  p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: lowercase;
   }
   
   /* Loader */
@@ -56,5 +76,13 @@ h1 {
   
     .image-container {
       margin: 10px; 
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    .logo {
+      height: 17px;
     }
   }

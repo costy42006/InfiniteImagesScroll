@@ -80,7 +80,8 @@ p {
 
   p {
     font-size: 0.5rem;
-    padding-left: 0px;
+    padding-top: 2px;
+    padding-left: 2px;
   }
 
   .logo {

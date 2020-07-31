@@ -14,8 +14,8 @@ const apiKey = 'o16w7TgrmvnhfchLGP-sVPKxChzIqN-JXI5wS89I1O4';
 let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${initialCount}&query=nature&content_filter=high`;
 
 // Update API URL with New Count
-const updateAPIURLWithNewCount = (picCount) =>
-  apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${picCount}&query=nature&content_filter=high`;
+const updateAPIURLWithNewCount = (picCount) => 
+apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${picCount}&query=nature&content_filter=high`;
 
 // Check if all images were loaded
 const imageLoaded = () => {

@@ -67,12 +67,12 @@ const getPhotos = async () => {
     photosArray = await response.json();
     displayPhotos();
     if (isInitialLoad) { 
-      updateAPIURLWithNewCount(10) 
-      isInitialLoad = false 
+      updateAPIURLWithNewCount(10); 
+      isInitialLoad = false;
     } 
   } catch (error) {
     // Catch Error Here
-    alert('Oops, something gone wrong. Sorry about that. Please try again later.')
+    alert('Oops, something gone wrong. Sorry about that. Please try again later.');
   }
 }
 
